@@ -1,8 +1,9 @@
 @import "font-awesome.less";
 body {
     font-family: 'Open Sans', sans-serif;
-    background: url(../images/codeSplash.png);
-    background-repeat: no-repeat;
+    background: url(../images/codeSplash50.png);
+    background-size: 100%;
+    background-repeat: repeat;
     background-attachment: fixed;
 }
 .navbar-brand.darkbar
@@ -169,12 +170,19 @@ i.fa.fa-folder {
 }
 .splashText {
     font-family: 'Open Sans', sans-serif;
-    font-weight: 300;
-    font-size: 72px;
-    text-align: center;
+    font-weight: 400;
+    font-size: 64px;
+    text-align: right;
     color: #e0e0e0;
     padding-top: 10%;
+    padding-right: 5%;
 }
+.splashText .domain{
+    font-size: 92px;
+    text-shadow: 4px 4px 0 #000;
+    font-weight: 700;
+}
+
 ul.dropdown-menu {
     background-color: #34495e;
 }
@@ -192,7 +200,6 @@ ul.dropdown-menu a:hover{
 }
 .ps1{
     background-color: #f1c40f;
-    opacity: .7;
     height: 280px;
     -o-transition: .4s;
     -ms-transition: .4s;
@@ -204,7 +211,6 @@ ul.dropdown-menu a:hover{
 }
 .ps2{
     background-color: #8e44ad;
-    opacity: .7;
     height: 280px;
     -o-transition: .4s;
     -ms-transition: .4s;
@@ -216,7 +222,6 @@ ul.dropdown-menu a:hover{
 }
 .ps3{
     background-color: #3498db;
-    opacity: .7;
     height: 280px;
     -o-transition: .4s;
     -ms-transition: .4s;
@@ -227,8 +232,7 @@ ul.dropdown-menu a:hover{
     background-color: #5faadb;
 }
 .ps4{
-    background-color: #1abc9c;;
-    opacity: .7;
+    background-color: #1abc9c;
     height: 280px;
     -o-transition: .4s;
     -ms-transition: .4s;
